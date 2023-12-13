@@ -1,6 +1,7 @@
 package net.mason.tutorialmod.item;
 
 import net.mason.tutorialmod.TutorialMod;
+import net.mason.tutorialmod.item.custom.FuelItem;
 import net.mason.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +24,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+
+    public static final RegistryObject<Item> NAPALM = ITEMS.register("napalm",
+            () -> new FuelItem(new Item.Properties(), 400));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
