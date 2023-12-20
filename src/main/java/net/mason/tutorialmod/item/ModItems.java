@@ -3,13 +3,12 @@ package net.mason.tutorialmod.item;
 import net.mason.tutorialmod.TutorialMod;
 import net.mason.tutorialmod.item.custom.FuelItem;
 import net.mason.tutorialmod.item.custom.MetalDetectorItem;
-import net.mason.tutorialmod.item.custom.ModArmorMaterials;
+import net.mason.tutorialmod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.apache.commons.lang3.math.IEEE754rUtils;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -43,7 +42,7 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.SAPPHIRE, 8, 0.5f, new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",

@@ -1,4 +1,4 @@
-package net.mason.tutorialmod.item.custom;
+package net.mason.tutorialmod.item;
 
 import net.mason.tutorialmod.TutorialMod;
 import net.mason.tutorialmod.item.ModItems;
