@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.NAPALM.get());
                         pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
+                        pOutput.accept(ModItems.SAPPHIRE_GLAIVE.get());
 
                         pOutput.accept(ModItems.SAPPHIRE_SWORD.get());
                         pOutput.accept(ModItems.SAPPHIRE_PICKAXE.get());

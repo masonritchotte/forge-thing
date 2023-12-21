@@ -2,6 +2,7 @@ package net.mason.tutorialmod.item;
 
 import net.mason.tutorialmod.TutorialMod;
 import net.mason.tutorialmod.item.custom.FuelItem;
+import net.mason.tutorialmod.item.custom.GlaiveItem;
 import net.mason.tutorialmod.item.custom.MetalDetectorItem;
 import net.mason.tutorialmod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
@@ -26,6 +27,11 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
             () -> new Item(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> SAPPHIRE_GLAIVE = ITEMS.register("sapphire_glaive",
+            () -> new GlaiveItem(new Item.Properties().durability(250)));
+    public static final RegistryObject<Item> GREATSWORD = ITEMS.register("greatsword",
+            () -> new SwordItem(Tiers.DIAMOND, 8, 0.8f, (new Item.Properties()).fireResistant()));
 
     public static final RegistryObject<Item> NAPALM = ITEMS.register("napalm",
             () -> new FuelItem(new Item.Properties(), 400));

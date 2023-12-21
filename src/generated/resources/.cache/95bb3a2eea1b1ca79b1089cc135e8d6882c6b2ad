@@ -1,0 +1,5 @@
+// 1.20.1	2023-12-21T02:49:55.3829923	Global Loot Modifiers : tutorialmod
+bf2c1d4f5daf0385a78470973d38ff77c35d8e1e data/forge/loot_modifiers/global_loot_modifiers.json
+5c7462172ce4bd16e3cc084901fd193fde25d75a data/tutorialmod/loot_modifiers/metal_detector_from_jungle_temples.json
+dfd99ba3e5340dd08d5048d51c1f8e3eecfb2fbc data/tutorialmod/loot_modifiers/napalm_from_creeper.json
+6ef3799d229191f969435e649151db66169a17dd data/tutorialmod/loot_modifiers/napalm_from_grass.json
